@@ -8,7 +8,7 @@ import { exitWithError } from "./lib/messages";
 const dataDir = path.join(__dirname, "./data");
 const lastPostPath = path.join(__dirname, "./data/lastPost");
 if (!existsSync(dataDir)) mkdirSync(dataDir);
-if (!existsSync(lastPostPath)) writeFileSync(lastPostPath, "422840");
+if (!existsSync(lastPostPath)) writeFileSync(lastPostPath, "422898");
 interface IPostDetails {
   title: string;
   created_at: number;

@@ -32,3 +32,6 @@ npm run start
 如果要退出账号登陆，则删除`dist/data/account.json`
 
 如果要重置起始贴号，则删除`dist/data/lastPost`
+
+## 贡献
+有问题可以提issue，希望有人可以想个办法处理判断最新贴号的功能，然后发个PR来
